@@ -11,25 +11,48 @@ body {
   --brand-background-color: white;
   --brand-font-size: 16px;
   --brand-line-height: 1.5;
-  --brand-letter-spacing: 2%;
+  --brand-letter-spacing: 0.02em;
+  --brand-background-color-button:#f4f4fd;
 }
 
-.list {
-  list-style-type: none;
-}
 .link,
 .link-menu,
 .link-contact,
 .link-about {
   text-decoration: none;
 }
-
+.logotype,
+.link {
+  font-family: "Releway,sans-serif";
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.logotype {
+  text-decoration: none;
+}
+.link {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.link-contact {
+  font-style: normal;
+}
 .link-menu {
   font-family: var(--brand-text);
-  font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
-  color: var(--brand-color);
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .link-menu:hover {
   color: #404bbf;
@@ -40,7 +63,8 @@ body {
 .link-contact {
   font-family: var(--brand-text);
   font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
+  line-height: var(--brand-line-height)
+  letter: spacing 0.02em;;
   color: var(--brand-color);
 }
 .link-contact:hover {
@@ -53,14 +77,17 @@ body {
 .button-order-service {
   cursor: pointer;
 }
+.section-title {
+  background-color: #2e2f42;
+}
 .title {
   font-family: var(--brand-text);
   font-size: 56px;
-  line-height: 1, 1;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   font-weight: 700;
   color: white;
-  background-color: #2e2f42;
-  letter-spacing: var(--brand-letter-spacing);
 }
 .button-order-service {
   color: #ffffff;
@@ -69,10 +96,8 @@ body {
   border-radius: 2px;
   box-shadow: 0px 1px 2px black;
   font-family: var(--brand-text);
-  font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
   font-weight: 500;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
 }
 .button-order-service:hover {
   background-color: #404bbf;
@@ -82,62 +107,64 @@ body {
 }
 .button {
   font-family: var(--brand-text);
-  font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
-  border: none;
   font-weight: 500;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #e7e9fc;
+  background-color:var(--brand-background-color-button);
 }
 
 .button:hover {
   color: white;
   background-color: #404bbf;
-  border-radius: 2px;
-  box-shadow: 0px 1px 2px gray;
 }
 .button:focus {
   color: white;
   background-color: #404bbf;
-  border-radius: 2px;
-  box-shadow: 0px 1px 2px gray;
 }
 .header-3 {
   font-family: var(--brand-text);
   font-size: 20px;
   font-weight: 500;
-  letter-spacing: var(--brand-letter-spacing);
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .text {
-  font-family: var(--brand-text);
-  color: var(--brand-color);
-  font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
-  letter-spacing: var(--brand-letter-spacing);
+   font-size: var(--brand-font-size);
+   line-height: 1.5;
+   letter-spacing: var(--brand-letter-spacing);
+   color: var(--brand-color);
+}
+.text{
+  text-decoration: none;
 }
 .header-2 {
   font-family: var(--brand-text);
   font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   color: #2e2f42;
-  letter-spacing: var(--brand-letter-spacing);
+}
+.footer {
+  color: #2e2f42;
 }
 .text-about {
   font-family: var(--brand-text);
   color: #f4f4fd;
   background-color: #2e2f42;
   font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
-  letter-spacing: var(--brand-letter-spacing);
+  letter-spacing: 0.02em;
 }
 .link-about {
-  font-family: var(--brand-text);
-  font-size: var(--brand-font-size);
-  line-height: var(--brand-line-height);
-  color: #f4f4fd;
-  background-color: #2e2f42;
+  font-family: "Releway,sans-serif";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .link-about:hover {
   color: #404bbf;
