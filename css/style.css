@@ -32,20 +32,12 @@ body {
 .span-text {
   color: #2e2f42;
 }
-
-.list {
-  list-style: none;
-}
-
 .navigation-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--logo-text-color);
-}
-.link {
-  text-decoration: none;
 }
 .navigation-link:hover {
   color: #404bbf;
@@ -56,17 +48,11 @@ body {
 .contact-info {
   font-style: normal;
 }
-.list {
-  list-style: none;
-}
 .link-contact {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--brand-color);
-}
-.link {
-  text-decoration: none;
 }
 .link-contact:hover {
   color: #404bbf;
@@ -145,9 +131,6 @@ body {
   letter-spacing: var(--brand-letter-spacing);
   text-transform: capitalize;
   color: var(--logo-text-color);
-}
-.list {
-  list-style: none;
 }
 .section-4 {
   background-color: #f4f4fd;
