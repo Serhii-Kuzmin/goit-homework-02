@@ -112,7 +112,7 @@ body {
 .list {
   list-style: none;
 }
-.title-3 {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -125,7 +125,7 @@ body {
   letter-spacing: var(--brand-letter-spacing);
   color: var(--brand-color);
 }
-.title-2 {
+.caption {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
