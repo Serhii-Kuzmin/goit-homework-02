@@ -17,7 +17,7 @@ body {
   --logo-text-color: #2e2f42;
 }
 .logotype {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -78,6 +78,7 @@ body {
   font-family: var(--brand-text);
   font-weight: 500;
   font-size: var(--brand-font-size);
+  line-height: 1.5;
   letter-spacing: 0.04em;
 }
 .button-order-service:hover {
@@ -111,7 +112,7 @@ body {
 .list {
   list-style: none;
 }
-.header-3 {
+.title-3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -124,7 +125,7 @@ body {
   letter-spacing: var(--brand-letter-spacing);
   color: var(--brand-color);
 }
-.header-2 {
+.title-2 {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -132,10 +133,10 @@ body {
   text-transform: capitalize;
   color: var(--logo-text-color);
 }
-.section-4 {
+.desc {
   background-color: #f4f4fd;
 }
-.images {
+.page-style {
   background-color: #ffffff;
 }
 .about {
@@ -149,7 +150,7 @@ body {
   letter-spacing: 0.02em;
 }
 .logotype-about {
-  font-family: "Releway", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
